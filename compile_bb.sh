@@ -1,0 +1,123 @@
+#! /bin/bash
+PATH=$PATH:/root/Desktop/SkunkWorks/dev-toolchains/adt-bundle-linux/sdk/platform-tools
+export PATH
+PATH=$PATH:/root/Desktop/SkunkWorks/dev-toolchains/adt-bundle-linux/sdk/tools
+export PATH
+export PATH="${PATH}:/root/Desktop/SkunkWorks/dev-toolchains/arm-bitcubategnudroid-linux-gnueabi/bin"
+export CC="/root/Desktop/SkunkWorks/dev-toolchains/arm-bitcubategnudroid-linux-gnueabi/bin/arm-bitcubategnudroid-linux-gnueabi-gcc"
+export CXX="/root/Desktop/SkunkWorks/dev-toolchains/arm-bitcubategnudroid-linux-gnueabi/bin/arm-bitcubategnudroid-linux-gnueabi-g++"
+export AR="/root/Desktop/SkunkWorks/dev-toolchains/arm-bitcubategnudroid-linux-gnueabi/bin/arm-bitcubategnudroid-linux-gnueabi-ar"
+export AS="/root/Desktop/SkunkWorks/dev-toolchains/arm-bitcubategnudroid-linux-gnueabi/bin/arm-bitcubategnudroid-linux-gnueabi-as"
+export RANLIB="/root/Desktop/SkunkWorks/dev-toolchains/arm-bitcubategnudroid-linux-gnueabi/bin/arm-bitcubategnudroid-linux-gnueabi-ranlib"
+export LD="/root/Desktop/SkunkWorks/dev-toolchains/arm-bitcubategnudroid-linux-gnueabi/bin/arm-bitcubategnudroid-linux-gnueabi-ld"
+export STRIP="/root/Desktop/SkunkWorks/dev-toolchains/arm-bitcubategnudroid-linux-gnueabi/bin/arm-bitcubategnudroid-linux-gnueabi-strip"
+
+# export CFLAGS="--static"
+./configure --host="arm-bitcubategnudroid-linux-gnueabi" --prefix="/root/Desktop/cu" --exec-prefix="/root/Desktop/cu/bin"  --disable-silent-rules      
+touch ./man/arch.1 
+touch ./man/chown.1 
+touch ./man/date.1 
+touch ./man/du.1 
+touch ./man/fmt.1 
+touch ./man/id.1 
+touch ./man/logname.1 
+touch ./man/mv.1 
+touch ./man/paste.1 
+touch ./man/pwd.1 
+touch ./man/sha1sum.1 
+touch ./man/sleep.1 
+touch ./man/sync.1 
+touch ./man/true.1 
+touch ./man/uniq.1 
+touch ./man/who.1 
+touch ./man/base64.1 
+touch ./man/chroot.1 
+touch ./man/dd.1 
+touch ./man/echo.1 
+touch ./man/fold.1 
+touch ./man/install.1 
+touch ./man/ls.1 
+touch ./man/nice.1 
+touch ./man/pathchk.1 
+touch ./man/readlink.1 
+touch ./man/sha224sum.1 
+touch ./man/sort.1 
+touch ./man/tac.1 
+touch ./man/truncate.1 
+touch ./man/unlink.1 
+touch ./man/yes.1 
+touch ./man/basename.1 
+touch ./man/cksum.1 
+touch ./man/df.1 
+touch ./man/env.1 
+touch ./man/groups.1 
+touch ./man/join.1 
+touch ./man/md5sum.1 
+touch ./man/nl.1 
+touch ./man/pinky.1 
+touch ./man/realpath.1 
+touch ./man/sha256sum.1 
+touch ./man/split.1 
+touch ./man/tail.1 
+touch ./man/tr.1 
+touch ./man/uptime.1 
+touch ./man/cat.1 
+touch ./man/comm.1 
+touch ./man/dircolors.1 
+touch ./man/expand.1 
+touch ./man/head.1 
+touch ./man/kill.1 
+touch ./man/mkdir.1 
+touch ./man/nohup.1 
+touch ./man/printenv.1 
+touch ./man/rmdir.1 
+touch ./man/sha384sum.1 
+touch ./man/stat.1 
+touch ./man/tee.1 
+touch ./man/tsort.1 
+touch ./man/users.1 
+touch ./man/chcon.1 
+touch ./man/cp.1 
+touch ./man/dirname.1 
+touch ./man/expr.1 
+touch ./man/help2man link.1 
+touch ./man/mkfifo.1 
+touch ./man/nproc.1 
+touch ./man/printf.1 
+touch ./man/rm.1 
+touch ./man/sha512sum.1 
+touch ./man/stdbuf.1 
+touch ./man/test.1 
+touch ./man/tty.1 
+touch ./man/vdir.1 
+touch ./man/chgrp.1 
+touch ./man/csplit.1 
+touch ./man/dir.1 
+touch ./man/factor.1 
+touch ./man/hostid.1 
+touch ./man/ln.1 
+touch ./man/mknod.1 
+touch ./man/numfmt.1 
+touch ./man/pr.1 
+touch ./man/runcon.1 
+touch ./man/shred.1 
+touch ./man/stty.1 
+touch ./man/timeout.1 
+touch ./man/uname.1 
+touch ./man/wc.1 
+touch ./man/chmod.1 
+touch ./man/cut.1 
+touch ./man/dummy-man false.1 
+touch ./man/hostname.1 
+touch ./man/local.mk mktemp.1 
+touch ./man/od.1 
+touch ./man/ptx.1 
+touch ./man/seq.1 
+touch ./man/shuf.1 
+touch ./man/sum.1 
+touch ./man/touch.1 
+touch ./man/unexpand.1 
+touch ./man/whoami.1
+make
+
+
